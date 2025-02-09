@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký hội viên</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="dateOfBirth">Ngày sinh:</label>
+        <input type="date" id="dateOfBirth" name="dateOfBirth" />
+      </div>
+      <div>
+        <label>Giới tính:</label>
+        <input type="radio" id="male" name="gender" value="Nam" />
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ" />
+        <label for="female">Nữ</label>
+      </div>
+      <div>
+        <label for="phoneNumber">Số điện thoại:</label>
+        <input type="text" id="phoneNumber" maxlength="10" name="phoneNumber" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="companyName">Tên công ty:</label>
+        <input type="text" id="companyName" name="companyName" />
+      </div>
+      <div>
+        <label for="role">Vai trò trong công ty:</label>
+        <select name="role" id="role">
+          <option value="ceo">Giám đốc điều hành (CEO)</option>
+          <option value="manager">Quản lý</option>
+          <option value="staff">Nhân viên</option>
+        </select>
+      </div>
+      <div>
+        <label for="companySize">Quy mô công ty:</label>
+        <select name="companySize" id="companySize">
+          <option value="small">Doanh nghiệp nhỏ</option>
+          <option value="medium">Doanh nghiệp vừa</option>
+          <option value="large">Doanh nghiệp lớn</option>
+        </select>
+      </div>
+      <div>
+        <label for="industry">Ngành nghề công ty:</label>
+        <input type="text" id="industry" name="industry" />
+      </div>
+      <div>
+        <label for="reason">Lý do tham gia câu lạc bộ:</label>
+        <textarea id="reason" name="reason"></textarea>
+      </div>
+      <div>
+        <label for="experience">Kinh nghiệm lãnh đạo:</label>
+        <textarea id="experience" name="experience"></textarea>
+      </div>
+      <div>
+        <label for="goal">Mục tiêu khi tham gia câu lạc bộ:</label>
+        <textarea id="goal" name="goal"></textarea>
+      </div>
+      <div>
+        <label>Chương trình sự kiện mong muốn tham gia:</label>
+        <input
+          type="checkbox"
+          id="networking"
+          name="event"
+          value="Networking"
+        />
+        <label for="networking">Networking</label>
+        <input type="checkbox" id="workshops" name="event" value="Workshops" />
+        <label for="workshops">Workshops</label>
+        <input type="checkbox" id="seminar" name="event" value="Hội thảo" />
+        <label for="seminar">Hội thảo</label>
+      </div>
+      <div>
+        <label>Đăng ký nhận bản tin:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" />
+        <label for="newsletter">Có</label>
+      </div>
+      <div>
+        <input type="submit" value="Đăng ký hội viên" />
+      </div>
+    </form>
+  </body>
+</html>
