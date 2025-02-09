@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="dateOfBirth">Ngày sinh:</label>
+        <input type="date" id="dateOfBirth" />
+      </div>
+      <div>
+        <label for="gender">Giới tính:</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="gender">Nam</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="gender">Nữ</label>
+      </div>
+      <div>
+        <label for="phoneNumber">Số điện thoại:</label>
+        <input type="text" id="phoneNumber" maxlength="10" name="phoneNumber" />
+      </div>
+      <div>
+        <label for="specialized">Chuyên ngành:</label>
+        <input type="text" id="specialized" name="specialized" />
+      </div>
+      <div>
+        <label for="year">Năm nhập học:</label>
+        <input type="datetime" id="year" name="year" maxlength="4" />
+      </div>
+      <div>
+        <label for="gpa">Điểm GPA:</label>
+        <input type="text" id="gpa" name="gpa" />
+      </div>
+      <div>
+        <label for="address">Địa chỉ:</label>
+        <textarea name="address" id="address"></textarea>
+      </div>
+      <div>
+        <label for="class">Lớp học:</label>
+        <select name="class" id="class">
+          <option value="">Lớp 1</option>
+          <option value="">Lớp 2</option>
+          <option value="">Lớp 3</option>
+        </select>
+      </div>
+      <div>
+        <label for="date">Ngày đăng ký học:</label>
+        <input type="datetime-local" id="date" />
+      </div>
+      <div>
+        <input type="submit" value="Gửi thông tin" />
+      </div>
+    </form>
+  </body>
+</html>
