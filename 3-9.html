@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      <div>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="dateOfBirth">Ngày sinh:</label>
+        <input type="date" id="dateOfBirth" />
+      </div>
+      <div>
+        <label for="gender">Giới tính:</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="gender">Nam</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="gender">Nữ</label>
+      </div>
+      <div>
+        <label for="phoneNumber">Số điện thoại:</label>
+        <input type="text" id="phoneNumber" maxlength="10" name="phoneNumber" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="address">Địa chỉ:</label>
+        <textarea name="address" id="address"></textarea>
+      </div>
+      <div>
+        <label for="role">Vai trò trong nhóm:</label>
+        <select name="role" id="role">
+          <option value="">Thành viên</option>
+          <option value="">Nhóm trưởng</option>
+          <option value="">Nhóm phó</option>
+        </select>
+      </div>
+      <div>
+        <label for="interest">Sở thích:</label>
+        <input type="text" id="interest" name="interest" />
+      </div>
+      <div>
+        <label for="skill">Kỹ năng:</label>
+        <textarea name="skill" id="skill"></textarea>
+      </div>
+      <div>
+        <label for="freeTime">Thời gian rảnh:</label>
+        <input type="checkbox" id="morning" name="freeTime" value="Sáng" />
+        <label for="morning">Sáng</label>
+        <input type="checkbox" id="afternoon" name="freeTime" value="Chiều" />
+        <label for="afternoon">Chiều</label>
+        <input type="checkbox" id="evening" name="freeTime" value="Tối" />
+        <label for="evening">Tối</label>
+      </div>
+      <div>
+        <label for="reason">Lý do tham gia nhóm:</label>
+        <textarea id="reason" name="reason"></textarea>
+      </div>
+      <div>
+        <label for="color">Màu yêu thích:</label>
+        <input type="color" id="color" name="color" />
+      </div>
+      <div>
+        <label for="notify">Nhận thông báo qua:</label>
+        <input type="radio" id="emailNotify" name="notify" value="email" />
+        <label for="emailNotify">Email</label>
+        <input type="radio" id="smsNotify" name="notify" value="sms" />
+        <label for="smsNotify">SMS</label>
+      </div>
+      <div>
+        <input type="submit" value="Đăng ký thành viên" />
+      </div>
+    </form>
+  </body>
+</html>
